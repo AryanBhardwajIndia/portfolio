@@ -1,0 +1,32 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-right: 6rem;
+    z-index: 1000;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end; /* Move the box to the right. Use center if you prefer */
+    align-items: center;
+    backdrop-filter: blur(0px); /* Optional: subtle blur effect */
+  }
+  
+  .resume-button {
+    padding: 0.8rem;
+    border: 1px solid #ffffff;
+    border-radius: 5%;
+    color: #ffffff;
+    background: transparent; /* subtle transparent background */
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .resume-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,88 @@
+.hero-container {
+    position: relative;
+  height: 100vh;
+  width: 100%;
+  background: rgb(26, 25, 25);
+  color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  }
+  
+  .hero-content {
+    z-index: 2;
+    padding: 2rem;
+    
+  }
+
+  .hero-content-top{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 8vw;
+  }
+  .hero-content-bottom{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .typewrite > .wrap {
+    border-right: 0.08em solid #fff;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28px;
+    height: 55px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4px;
+    z-index: 2;
+  }
+  
+  .scroll-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: scrollDown 2s infinite ease-in-out;
+  }
+  
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(30px);
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  
