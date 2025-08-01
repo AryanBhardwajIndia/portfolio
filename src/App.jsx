@@ -1,13 +1,19 @@
-// src/App.jsx
-import Hero from './components/Hero';
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Project from "./components/Projects";
+import Contact from "./components/Contact";
 
-function App() {
+const App = () => {
   return (
-    <main>
+    <div className="main-wrapper">
       <Hero />
-      {/* Add About, Projects, etc. next */}
-    </main>
+      <About />
+      <Skills />
+      <Project/>
+      <Contact/>
+    </div>
   );
-}
+};
 
 export default App;
