@@ -1,15 +1,15 @@
 import "./Skills.css";
 
 const skills = [
-  { name: "C", icon: "src/components/logos/c.png" },
-  { name: "C++", icon: "src/components/logos/cpp.png" },
-  { name: "JavaScript", icon: "src/components/logos/js.png" },
-  { name: "Python", icon: "src/components/logos/python.webp" },
-  { name: "HTML", icon: "src/components/logos/html.png" },
-  { name: "CSS", icon: "src/components/logos/css.png" },
-  { name: "PHP", icon: "src/components/logos/php.png" },
-  { name: "MySQL", icon: "src/components/logos/mysql.png" },
-  { name: "Kotlin", icon: "src/components/logos/kotlin.png" },
+  { name: "C", icon: "src/components/c.png" },
+  { name: "C++", icon: "src/components/cpp.png" },
+  { name: "JavaScript", icon: "src/components/js.png" },
+  { name: "Python", icon: "src/components/python.webp" },
+  { name: "HTML", icon: "src/components/html.png" },
+  { name: "CSS", icon: "src/components/css.png" },
+  { name: "PHP", icon: "src/components/php.png" },
+  { name: "MySQL", icon: "src/components/mysql.png" },
+  { name: "Kotlin", icon: "src/components/kotlin.png" },
 ];
 
 const Skills = () => {
