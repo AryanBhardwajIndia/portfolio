@@ -83,3 +83,14 @@
     color: inherit;
   }
   
+  .end-text{
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(166, 165, 165);
+  }
