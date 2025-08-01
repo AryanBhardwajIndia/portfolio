@@ -1,7 +1,6 @@
 .skills-section {
     min-height: 100vh;
     width: auto;
-    padding: 2rem 2rem;
     text-align: center;
     background: rgba(245, 245, 245, 0.9);
   backdrop-filter: blur(10px);
