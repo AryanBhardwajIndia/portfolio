@@ -26,7 +26,7 @@
   }
   
   .resume-button:hover {
-    background: #fff;
+    background: rgb(255, 255, 255);
     transform: scale(1.05);
     color: #000;
   }

@@ -1,0 +1,57 @@
+.contact-section {
+    height: 100vh;
+    width: auto;
+    background: black;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    animation: slideUp 1.2s ease-in-out;
+    padding: 2rem;
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contact-heading {
+    font-size: 6rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contact-email {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0077ff;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-email:hover {
+    color: #0055cc;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:visited{
+    text-decoration: none;
+    color: inherit;
+  }
+  
