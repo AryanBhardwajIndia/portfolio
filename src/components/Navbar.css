@@ -19,7 +19,7 @@
     color: #ffffff;
     background: transparent; /* subtle transparent background */
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.5vw;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease-in-out;
