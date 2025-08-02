@@ -3,7 +3,6 @@ body {
   background-color: rgba(57, 54, 54, 0.8);
   color: white;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 a{
