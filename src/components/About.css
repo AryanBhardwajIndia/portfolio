@@ -74,3 +74,102 @@
   section > * {
     animation: slideUp 1s ease-out;
   }
+
+  @media only screen and (max-width: 950px){
+    .about-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      
+      .about-below {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: justify;
+      }
+      
+      .about-image {
+        width: 15em;
+        height: 25em;
+        object-fit: cover;
+        border-radius: 2%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+  }
+
+  @media only screen and (max-width: 855px){
+    .about-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      .about-below {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: justify;
+      }
+      
+      .about-image {
+        display: none;
+        width: 12em;
+        height: 22em;
+        object-fit: cover;
+        border-radius: 2%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+  }
+
+  @media only screen and (max-width: 650px){
+    .about-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      .about-below {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: justify;
+      }
+      
+      .about-image {
+        display: none;
+        width: 12em;
+        height: 22em;
+        object-fit: cover;
+        border-radius: 2%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+  }
+
+  @media only screen and (max-width: 600px){
+    .about-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+      }
+      
+      .about-below {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 0.75em;
+        text-align: justify;
+      }
+      
+      .about-image {
+        display: none;
+        width: 12em;
+        height: 22em;
+        object-fit: cover;
+        border-radius: 2%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+  }

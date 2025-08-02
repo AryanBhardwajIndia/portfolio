@@ -31,3 +31,77 @@
     color: #000;
   }
   
+  @media only screen and (max-width: 1200px){
+    .resume-button {
+        padding: 0.8rem;
+        border: 0.3px solid #ffffff;
+        border-radius: 5%;
+        color: #ffffff;
+        background: transparent; /* subtle transparent background */
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 2vw;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s ease-in-out;
+      }
+  }
+
+  @media only screen and (max-width: 950px){
+    .resume-button {
+        padding: 0.8rem;
+        border: 0.3px solid #ffffff;
+        border-radius: 5%;
+        color: #ffffff;
+        background: transparent; /* subtle transparent background */
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 2.5vw;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s ease-in-out;
+      }
+  }
+
+  @media only screen and (max-width: 800px){
+    .resume-button {
+        padding: 0.8rem;
+        border: 0.3px solid #ffffff;
+        border-radius: 5%;
+        color: #ffffff;
+        background: transparent; /* subtle transparent background */
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 2.89vw;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s ease-in-out;
+      }
+  }
+
+  @media only screen and (max-width: 700px){
+    .resume-button {
+        padding: 0.8rem;
+        border: 0.3px solid #ffffff;
+        border-radius: 5%;
+        color: #ffffff;
+        background: transparent; /* subtle transparent background */
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 3vw;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s ease-in-out;
+      }
+  }
+
+  @media only screen and (max-width: 550px){
+    .resume-button {
+        padding: 0.8rem;
+        border: 0.3px solid #ffffff;
+        border-radius: 5%;
+        color: #ffffff;
+        background: transparent; /* subtle transparent background */
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 3.5vw;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s ease-in-out;
+      }
+  }

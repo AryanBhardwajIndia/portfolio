@@ -87,3 +87,24 @@
     }
   }
   
+  @media only screen and (max-width: 950px){
+    .hero-content-bottom{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 3.5vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+      }
+  }
+
+  @media only screen and (max-width: 750px){
+    .hero-content-bottom{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 3.89vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+      }
+  }
