@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href="/CV.pdf" target="_blank"><div className="resume-button">Résumé</div></a>
+      <a href="/resume.pdf" target="_blank"><div className="resume-button">Résumé</div></a>
     </nav>
   );
 };
