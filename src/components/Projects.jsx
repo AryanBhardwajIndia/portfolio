@@ -3,6 +3,18 @@ import "./Projects.css";
 
 const projects = [
   {
+    title: "QuickLink - URL Shortener",
+    link: "https://github.com/AryanBhardwajIndia/quick-link",
+  },
+  {
+    title: "CollabDocs",
+    link: "https://github.com/AryanBhardwajIndia/collab-docs",
+  },
+  {
+    title: "Is My Resume Compatible?",
+    link: "https://github.com/AryanBhardwajIndia/is-my-resume-compatible",
+  },
+  {
     title: "Facebook Helpdesk",
     link: "https://github.com/AryanBhardwajIndia/fb-helpdesk",
   },
